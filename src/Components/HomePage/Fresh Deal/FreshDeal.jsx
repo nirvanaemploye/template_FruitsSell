@@ -7,7 +7,7 @@ import oranges from "../../../assets/Home_page/FreshImg/oranges.svg";
 import strawberry from "../../../assets/Home_page/FreshImg/strawberry.svg";
 import watermelon from "../../../assets/Home_page/FreshImg/watermelon.svg";
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";
-import HandelHover from "../../../Share/handelHover/handelHover";
+import HandelHover from "../../../Share/handelHover/HandelHover";
 
 const bgStyle = {
   backgroundImage: `url(${FreshBg})`,
