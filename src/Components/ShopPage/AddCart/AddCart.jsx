@@ -74,7 +74,7 @@ const AddCart = () => {
   };
 
   return (
-    <section className="py-24 relative">
+    <section className="py-12 md:py-24 relative">
       <img
         src={Pineapple}
         alt=""
