@@ -75,7 +75,7 @@ const Well = () => {
         <div data-aos="fade" className="text-cente p-8 sm:p-5 space-y-4">
           {/* Top comma */}
           <div className="flex justify-start">
-            <img src={comma} alt="Opening comma" />
+            <img src={comma} alt="Opening comma" loading="lazy" />
           </div>
 
           {/* Quote text */}
