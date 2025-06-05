@@ -40,9 +40,9 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <button
               onClick={() => setIsCartOpen(true)}
-              className="lg:border border-secondary rounded-full p-1 sm:p-2 group hover:bg-secondary duration-300 hover:scale-110"
+              className="lg:border border-secondary rounded-full my-auto sm:p-2 group lg:hover:bg-secondary duration-300 hover:scale-110"
             >
-              <TiShoppingCart className="text-2xl group-hover:text-white" />
+              <TiShoppingCart className="text-2xl lg:group-hover:text-white" />
             </button>
 
             {/* Mobile menu button */}
