@@ -51,7 +51,7 @@ const Navbar = () => {
                 {isMenuOpen ? (
                   <MdClose className="text-3xl" />
                 ) : (
-                  <MdMenu className="text-3xl -mb-1" />
+                  <MdMenu className="text-3xl -mb-2" />
                 )}
               </button>
             </div>
