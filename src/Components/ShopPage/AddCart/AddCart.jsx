@@ -103,7 +103,7 @@ const AddCart = () => {
         {/* Product Grid & Pagination */}
         <div className="w-full lg:w-3/4 flex flex-col gap-y-8">
           {/* Product Grid */}
-          <div className=" grid grid-cols-2 lg:grid-cols-3 gap-5 ">
+          <div className=" grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-5 ">
             {products.map((item) => (
               <div
               data-aos="zoom-in"
