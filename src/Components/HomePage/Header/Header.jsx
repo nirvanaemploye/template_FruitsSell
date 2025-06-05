@@ -26,14 +26,14 @@ const Header = () => {
           transition={{ duration: 1 }}
           src={img3}
           alt="Decorative fruit pattern"
-          className="absolute -top-20 scale-75 sm:scale-100"
+          className="absolute -top-20 scale-50 sm:scale-100" 
         />
         {/* left side */}
         <div className="flex flex-col gap-2 sm:gap-5 justify-center items-center lg:items-start w-full lg:w-2/5 text-center lg:text-left">
           <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl">
             Healthy{" "}
           </h1>
-          <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl -mt-8">
+          <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl -mt-4">
             Fresh <span className="text-secondary">Fruits!</span>
           </h1>
           <p data-aos="fade" className="text-xl text-black">
