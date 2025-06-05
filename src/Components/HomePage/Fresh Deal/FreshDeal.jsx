@@ -18,7 +18,7 @@ const bgStyle = {
 
 const FreshDeal = () => {
   return (
-    <section style={bgStyle} className="py-24">
+    <section style={bgStyle} className="py-12 md:py-24">
       <Title>Fresh Deals Daily</Title>
       {/* main content fresh deal */}
       <div

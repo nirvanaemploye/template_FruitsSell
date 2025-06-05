@@ -47,7 +47,7 @@ const FreshPickData = [
 
 const FreshPick = () => {
   return (
-    <section style={bgStyle} className="py-24">
+    <section style={bgStyle} className="py-12 md:py-24">
       <Title>Fresh Picks</Title>
       <div className="mt-28">
         <div className="container p-8 lg:pt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-24 gap-x-6 ">

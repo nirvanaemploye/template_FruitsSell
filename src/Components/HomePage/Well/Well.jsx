@@ -36,7 +36,7 @@ const fruitData = [
 
 const Well = () => {
   return (
-    <section className="py-24">
+    <section className="py-12 md:py-24">
       <Title>Eat Well, Live Weel</Title>
       <div className="container pt-10 grid grid-cols-1 lg:grid-cols-3">
         {/* Left side fruitlist */}

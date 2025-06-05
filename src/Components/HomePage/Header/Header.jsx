@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="py-14 sm:py-24 ">
+    <section className="py-14 md:py-24 ">
       <div className="container flex flex-col gap-y-12 lg:flex-row justify-between relative">
         <motion.img
           initial={{ opacity: 0, x: -50 }}
