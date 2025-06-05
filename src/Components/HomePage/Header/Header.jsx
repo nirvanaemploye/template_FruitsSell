@@ -29,17 +29,17 @@ const Header = () => {
           className="absolute -top-20"
         />
         {/* left side */}
-        <div className="flex flex-col gap-2 sm:gap-5 justify-center items-center lg:items-start w-full lg:w-2/5 text-center lg:text-left">
+        <div className="flex flex-col gap-3 sm:gap-5 justify-center items-center lg:items-start w-full lg:w-2/5 text-center lg:text-left">
           <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl">
             Healthy{" "}
           </h1>
           <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl -mt-8">
             Fresh <span className="text-secondary">Fruits!</span>
           </h1>
-          <p data-aos="fade" className="sm:text-xl text-black">
+          <p data-aos="fade" className="text-xl text-black">
             Order Now For Fresh Healthy Life
           </p>
-          <p data-aos="fade" className=" sm:w-3/4 text-base 2xl:text-lg sm:leading-8">
+          <p data-aos="fade" className="sm:w-3/5 text-base 2xl:text-lg sm:leading-8">
             Fresh, juicy fruits delivered to your doorstep. Boost your health
             with every bite.
           </p>
