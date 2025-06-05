@@ -37,7 +37,7 @@ const Highlights = () => {
         <div className="relative flex flex-col lg:flex-row justify-between items-center gap-10">
           <div className="hidden lg:block mx-[120px] absolute top-24 left-0 right-0 border-t-[3px] border-dashed border-primary z-0" />
           {data.map((item) => (
-            <div key={item.title} className="flex flex-col items-center gap-2 sm:gap-10">
+            <div key={item.title} className="flex flex-col items-center gap-3 sm:gap-10">
               <div className="bg-white flex items-center justify-center rounded-full shadow-lg h-32 w-32 sm:h-40 sm:w-40 lg:h-48 lg:w-48 border-[3px] border-spacing-16 border-dashed border-primary z-10">
                 <img
                   data-aos="zoom-in"
