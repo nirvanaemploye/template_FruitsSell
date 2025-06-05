@@ -58,7 +58,7 @@ const Contactdetails = () => {
             <div className="">
               <img src={item.img} alt="" />
             </div>
-            <div className="absolute mx-16 md:mx-60 lg:mx-10 xl:mx-20 2xl:mx-28 flex flex-col items-center gap-2 top-20 2xl:top-24 text-black">
+            <div className="absolute mx-16 md:mx-60 lg:mx-10 xl:mx-20 2xl:mx-28 flex flex-col items-center gap-1 md:gap-2 top-20 2xl:top-24 text-black">
 
             <div className="text-3xl text-secondary bg-white p-3 rounded-full">
               {item.icon}
