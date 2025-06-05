@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full font-AppFont bg-white z-50 overflow-x-hidden">
-      <div data-aos="fade" className="container mx-auto flex justify-between items-center py-3">
+      <div data-aos="fade" className="container mx-auto flex justify-between items-center py-3 my-auto">
         {/* Logo */}
         <h1 className="flex flex-row items-center gap-x-3 text-4xl sm:text-5xl">
           Fruit Store
