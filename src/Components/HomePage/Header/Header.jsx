@@ -18,7 +18,7 @@ const Header = () => {
           transition={{ duration: 1 }}
           src={img2}
           alt="Decorative fruit pattern"
-          className="absolute h-24 sm:h-32 2xl:h-auto right-0 -bottom-48"
+          className="absolute h-24 sm:h-32 2xl:h-auto right-0 -bottom-28"
         />
         <motion.img
           initial={{ opacity: 0, scale: 0.5 }}
