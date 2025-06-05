@@ -60,6 +60,7 @@ const Header = () => {
             transition={{ duration: 1, ease: "easeIn" }}
             src={img}
             alt="Basket of fresh fruits"
+            loading="lazy"
             className="w-full "
           />
         </div>
