@@ -41,20 +41,20 @@ const Well = () => {
       <div className="container pt-10 grid grid-cols-1 lg:grid-cols-3">
         {/* Left side fruitlist */}
         <div data-aos="fade" className="w-full max-w-md mx-auto py-8 ">
-          <div className="flex flex-col gap-6 overflow-y-scroll scroll-ml-48 max-h-[380px] scrollbar-thin scrollbar-thumb-primary scrollbar-track-slate-100 pr-5 ">
+          <div className="flex flex-col gap-6 overflow-y-scroll scroll-ml-48 max-h-[320px] sm:max-h-[380px] scrollbar-thin scrollbar-thumb-primary scrollbar-track-slate-100 pr-5 ">
             {fruitData.map((fruit, index) => (
               <div key={index} className="flex items-start gap-4 p-1">
-                <div className="min-w-[100px] min-h-[100px] rounded-full border-2 border-primary flex items-center justify-center shadow-md shadow-primary/50">
+                <div className="min-w-[80px] min-h-[80px] sm:min-w-[100px] sm:min-h-[100px] rounded-full border-2 border-primary flex items-center justify-center shadow-md shadow-primary/50">
                   <img
                     data-aos="zoom-out"
                     src={fruit.img}
                     alt={fruit.name}
-                    className="h-20 w-20 object-contain"
+                    className="h-12 w-12 sm:h-20 sm:w-20 object-contain"
                   />
                 </div>
                 <div className="my-auto">
-                  <h1 className="text-3xl sm:text-4xl">{fruit.name}</h1>
-                  <p className="text-gray-500 ">{fruit.desc}</p>
+                  <h1 className="text-2xl sm:text-4xl">{fruit.name}</h1>
+                  <p className="text-xs text-gray-500 ">{fruit.desc}</p>
                 </div>
               </div>
             ))}
