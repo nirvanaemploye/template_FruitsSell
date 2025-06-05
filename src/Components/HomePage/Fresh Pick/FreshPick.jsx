@@ -67,7 +67,7 @@ const FreshPick = () => {
               </div>
 
               {/* Content */}
-              <div className="flex flex-col items-center  gap-2 sm:gap-5 mt-5 sm:mt-14 w-full">
+              <div className="flex flex-col items-center sm:gap-5 mt-5 sm:mt-14 w-full">
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl text-center">{item.fruit}</h1>
                 <p className="text-center text-xs sm:text-sm ">{item.details}</p>
                 <div className="flex items-center w-full gap-3 px-2">

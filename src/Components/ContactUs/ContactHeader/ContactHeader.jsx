@@ -29,7 +29,7 @@ const ContactHeader = () => {
         <div className="flex justify-center items-end">
             <img
              data-aos="zoom-in"
-             
+             loading='lazy'
              src={HeadImg} alt="About Us Img" className="w-full sm:scale-150"/>
         </div>
       </div>
