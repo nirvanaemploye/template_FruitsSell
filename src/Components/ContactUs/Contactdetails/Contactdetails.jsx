@@ -48,7 +48,7 @@ const ContactdetailsData = [
 const Contactdetails = () => {
   return (
     <section className="py-24 ">
-      <div className="container grid grid-cols-1 lg:grid-cols-3 p-9 md:p-4 ">
+      <div className="container grid grid-cols-1 lg:grid-cols-3 p-8 md:p-4 ">
         {ContactdetailsData.map((item) => (
           <div
           data-aos="zoom-in"
@@ -63,7 +63,7 @@ const Contactdetails = () => {
             <div className="text-3xl text-secondary bg-white p-3 rounded-full">
               {item.icon}
             </div>
-            <h2 className="text-3xl font-semibold">{item.title}</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold">{item.title}</h2>
             {typeof item.text === "string" ? (
                 <p className="font-medium text-black">{item.text}</p>
             ) : (
