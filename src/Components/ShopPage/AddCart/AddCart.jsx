@@ -83,7 +83,7 @@ const AddCart = () => {
       <div className="container lg:flex ">
         {/* Filter Sidebar */}
         <div className="w-full sm:w-1/2 lg:w-1/4 ">
-          <div className="p-6 space-y-4">
+          <div className="p-6 space-y-2 md:space-y-4">
             <a className="font-semibold text-lg ">Filter by price</a>
             <input
               type="range"
@@ -111,16 +111,16 @@ const AddCart = () => {
                 className="group p-3 flex flex-col items-center shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 hover:border-primary"
               >
                 {/* Floating image */}
-                <div className="group-hover:bg-gray-200 bg-white w-full h-44 2xl:h-56 flex items-center justify-center duration-500 transition-all">
+                <div className="group-hover:bg-gray-200 bg-white w-full h-40 2xl:h-52 flex items-center justify-center duration-500 transition-all">
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="object-contain group-hover:scale-105 duration-500 transition-all"
+                    className="object-contain scale-75 md:scale-90 group-hover:scale-90 md:group-hover:scale-105 duration-500 transition-all"
                   />
                 </div>
 
                 {/* Content */}
-                <div className="flex flex-col items-center gap-2 py-2">
+                <div className="flex flex-col items-center gap-1 py-1 md:gap-2 md:py-2">
                   <h1 className="text-3xl sm:text-4xl text-center">
                     {item.name}
                   </h1>
