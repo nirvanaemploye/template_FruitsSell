@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <section className="py-24 ">
-      <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-y-16 ">
+      <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-y-14 ">
         <img src={apple} alt="apple" className="w-24 sm:w-18 lg:w-auto absolute bottom-0 lg:right-1/2 sm:translate-x-24 translate-y-1/2" />
         {/* text content */}
         <div data-aos="fade-right" className="flex flex-col justify-center items-center lg:items-start gap-2 sm:gap-8 text-center lg:text-left">

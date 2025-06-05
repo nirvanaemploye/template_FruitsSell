@@ -35,7 +35,7 @@ const data = [
 
 const Choose = () => {
   return (
-    <section style={bgStyle} className="py-24">
+    <section style={bgStyle} className="py-24 overflow-hidden">
       <div className="container space-y-12">
         <Title>Why Choose Us</Title>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
