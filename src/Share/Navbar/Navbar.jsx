@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Logo */}
         <h1 className="flex flex-row items-center gap-x-3 text-4xl sm:text-5xl mt-1">
           Fruit Store
-          <img src={logo} alt="Logo" className="w-5 h-5 sm:w-8 sm:h-8 -mt-1  sm:mt-2" />
+          <img src={logo} alt="Logo" className="w-5 h-5 sm:w-8 sm:h-8 -mt-4  sm:mt-2" />
         </h1>
 
         {/* Navigation & Icons */}
