@@ -29,7 +29,7 @@ const Header = () => {
           className="absolute -top-20"
         />
         {/* left side */}
-        <div className="flex flex-col gap-5 justify-center items-center lg:items-start w-full lg:w-2/5 text-center lg:text-left">
+        <div className="flex flex-col gap-2 sm:gap-5 justify-center items-center lg:items-start w-full lg:w-2/5 text-center lg:text-left">
           <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl">
             Healthy{" "}
           </h1>
