@@ -40,7 +40,7 @@ const Well = () => {
       <Title>Eat Well, Live Weel</Title>
       <div className="container pt-10 grid grid-cols-1 lg:grid-cols-3">
         {/* Left side fruitlist */}
-        <div data-aos="fade" className="w-full max-w-md mx-auto py-8 ">
+        <div data-aos="fade" className="w-full max-w-md mx-auto py-8 p-5 sm:p-0 ">
           <div className="flex flex-col gap-6 overflow-y-scroll scroll-ml-48 max-h-[320px] sm:max-h-[380px] scrollbar-thin scrollbar-thumb-primary scrollbar-track-slate-100 pr-5 ">
             {fruitData.map((fruit, index) => (
               <div key={index} className="flex items-start gap-4 p-1">
@@ -72,14 +72,14 @@ const Well = () => {
         </div>
 
         {/* Right side quote */}
-        <div data-aos="fade" className="text-cente p-4 space-y-4">
+        <div data-aos="fade" className="text-cente p-8 sm:p-5 space-y-4">
           {/* Top comma */}
           <div className="flex justify-start">
             <img src={comma} alt="Opening comma" />
           </div>
 
           {/* Quote text */}
-          <p className="text-xl text-center  lg:px-4 px-2">
+          <p className=" sm:text-xl text-center lg:px-4 px-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
