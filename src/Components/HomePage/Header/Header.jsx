@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="py-10 sm:py-24 ">
+    <section className="py-14 sm:py-24 ">
       <div className="container flex flex-col gap-y-12 lg:flex-row justify-between relative">
         <motion.img
           initial={{ opacity: 0, x: -50 }}
@@ -26,7 +26,7 @@ const Header = () => {
           transition={{ duration: 1 }}
           src={img3}
           alt="Decorative fruit pattern"
-          className="absolute -top-20"
+          className="absolute -top-20 scale-75 sm:scale-100"
         />
         {/* left side */}
         <div className="flex flex-col gap-2 sm:gap-5 justify-center items-center lg:items-start w-full lg:w-2/5 text-center lg:text-left">
