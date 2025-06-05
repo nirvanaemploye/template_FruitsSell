@@ -65,7 +65,7 @@ const App = () => {
           path="/about"
           element={
             <>
-              <AboutHeader />
+              {/* <AboutHeader /> */}
               <Trusted />
               <Choose />
               <Team />

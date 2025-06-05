@@ -8,11 +8,11 @@ const Trusted = () => {
     <section className="py-14 overflow-x-hidden">
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* image */}
-        <div data-aos="fade-left" className="flex justify-center items-end">
+        <div data-aos="zoom-in" className="flex justify-center items-end">
           <img src={TrustedImg} alt="Trusted Img" />
         </div>
         {/* text content */}
-        <div data-aos="fade-right" className="px-6 lg:px-0 flex flex-col justify-center items-center lg:items-start gap-8 text-center lg:text-left">
+        <div data-aos="fade" className="px-6 lg:px-0 flex flex-col justify-center items-center lg:items-start gap-8 text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl xl:text-6xl 2xl:pr-5">
             Your Trusted <span className="text-primary">100%</span> Organic
             Fruit Provider

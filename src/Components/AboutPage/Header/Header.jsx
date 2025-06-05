@@ -4,8 +4,6 @@ import HeadImg from "../../../assets/about_us/AboutHead.svg";
 import apple from "../../../assets/about_us/Apple.svg";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { motion } from "motion/react";
-
 
 const Header = () => {
   return (
@@ -30,7 +28,7 @@ const Header = () => {
         {/* image */}
         <div className="flex justify-center items-end">
             <img 
-             data-aos="zoom-out"
+             data-aos="zoom-in"
              src={HeadImg} alt="About Us Img" className="lg:-mr-24"/>
         </div>
       </div>

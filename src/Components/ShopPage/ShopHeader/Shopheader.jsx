@@ -24,10 +24,9 @@ const Shopheader = () => {
         </div>
         {/* image */}
         <div className="flex justify-center items-end w-full ">
-            <motion.img
-             initial={{ opacity: 0, scale: 0.5 }}
-             animate={{ opacity: 1, scale: 1.1 }}
-             transition={{ duration: 1 }}
+            <img
+             data-aos="zoom-in"
+             
              src={HeadImg} alt="About Us Img" className="lg:scale-125 lg:me-32"/>
         </div>
       </div>
