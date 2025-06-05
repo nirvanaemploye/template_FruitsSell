@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="py-14 sm:py-24 ">
+    <section className="py-10 sm:py-24 ">
       <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-y-14 ">
         <img src={apple} alt="apple" className="w-24 sm:w-18 lg:w-auto absolute bottom-0 lg:right-1/2 sm:translate-x-24 translate-y-1/2" />
         {/* text content */}
@@ -30,7 +30,7 @@ const Header = () => {
             <img 
              data-aos="zoom-in"
              loading="lazy"
-             src={HeadImg} alt="About Us Img" className="lg:-mr-24"/>
+             src={HeadImg} alt="About Us Img" className="lg:-mr-24 scale-90 sm:scale-100"/>
         </div>
       </div>
     </section>
