@@ -12,7 +12,7 @@ const Trusted = () => {
           <img src={TrustedImg} alt="Trusted Img " className="scale-90 md:scale-100" />
         </div>
         {/* text content */}
-        <div data-aos="fade" className="px-6 lg:px-0 flex flex-col justify-center items-center lg:items-start gap-8 text-center lg:text-left">
+        <div data-aos="fade" className="px-6 lg:px-0 flex flex-col justify-center items-center lg:items-start gap-3 md:gap-8 text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl xl:text-6xl 2xl:pr-5">
             Your Trusted <span className="text-primary">100%</span> Organic
             Fruit Provider

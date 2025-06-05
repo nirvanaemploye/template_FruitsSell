@@ -38,7 +38,7 @@ const Choose = () => {
     <section style={bgStyle} className="py-12 md:py-24 overflow-hidden">
       <div className="container space-y-12">
         <Title>Why Choose Us</Title>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 p-12 sm:p-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 p-8 sm:p-4">
           {data.map((item) => {
             return (
               <div
