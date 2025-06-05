@@ -67,6 +67,7 @@ const Well = () => {
             data-aos="zoom-in"
             src={FruitBasket}
             alt="Fruit Basket"
+            loading="lazy"
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain"
           />
         </div>
