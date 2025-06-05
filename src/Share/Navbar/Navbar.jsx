@@ -20,9 +20,9 @@ const Navbar = () => {
     <nav className="w-full font-AppFont bg-white z-50 overflow-x-hidden">
       <div data-aos="fade" className="container mx-auto flex justify-between items-center py-3">
         {/* Logo */}
-        <h1 className="flex flex-row items-center gap-x-3 text-5xl">
+        <h1 className="flex flex-row items-center gap-x-3 text-5xl mt-2">
           Fruit Store
-          <img src={logo} alt="Logo" className="w-8 h-8 mt-4" />
+          <img src={logo} alt="Logo" className="w-8 h-8 mt-2" />
         </h1>
 
         {/* Navigation & Icons */}
