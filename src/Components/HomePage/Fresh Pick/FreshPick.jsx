@@ -50,7 +50,7 @@ const FreshPick = () => {
     <section style={bgStyle} className="py-12 md:py-24">
       <Title>Fresh Picks</Title>
       <div className="mt-28">
-        <div className="container p-8 lg:pt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-24 gap-x-6 ">
+        <div className="container lg:container p-8 lg:pt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-24 gap-x-5 md:gap-x-16 ">
           {FreshPickData.map((item) => (
             <div
               key={item.id}
@@ -58,7 +58,7 @@ const FreshPick = () => {
               className="relative group bg-white flex flex-col items-center justify-center px-3 pt-16 pb-6 shadow-lg hover:shadow-2xl transition-all duration-200"
             >
               {/* Floating image */}
-              <div className="rounded-full h-36 w-36 sm:h-52 sm:w-52 absolute border-[2px] border-gray-400 group-hover:border-primary top-0 -translate-y-1/2 bg-white flex items-center justify-center duration-500 tra">
+              <div className="rounded-full h-36 w-36 sm:h-56 sm:w-56 absolute border-[2px] border-gray-400 group-hover:border-primary top-0 -translate-y-1/2 bg-white flex items-center justify-center duration-500 tra">
                 <img
                   src={item.img}
                   alt={item.fruit}

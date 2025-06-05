@@ -18,7 +18,7 @@ const Navbar = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   return (
-    <nav className="w-full font-AppFont bg-white z-50 overflow-x-hidden">
+    <nav className="w-full font-AppFont bg-white z-50 overflow-x-hidden my-auto">
       <div
         data-aos="fade"
         className="container mx-auto flex justify-between items-center py-3 my-auto"
