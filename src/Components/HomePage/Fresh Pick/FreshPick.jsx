@@ -50,7 +50,7 @@ const FreshPick = () => {
     <section style={bgStyle} className="py-24">
       <Title>Fresh Picks</Title>
       <div className="mt-28">
-        <div className="container pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-36 gap-x-12 ">
+        <div className="container p-8 lg:pt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-36 gap-x-12 ">
           {FreshPickData.map((item) => (
             <div
               key={item.id}
@@ -58,7 +58,7 @@ const FreshPick = () => {
               className="relative group bg-white flex flex-col items-center justify-center px-3 pt-16 pb-6 shadow-lg hover:shadow-2xl transition-all duration-200"
             >
               {/* Floating image */}
-              <div className="rounded-full h-52 w-52 absolute border-[2px] border-gray-400 group-hover:border-primary top-0 -translate-y-1/2 bg-white flex items-center justify-center duration-500 tra">
+              <div className="rounded-full h-36 w-36 sm:h-52 sm:w-52 absolute border-[2px] border-gray-400 group-hover:border-primary top-0 -translate-y-1/2 bg-white flex items-center justify-center duration-500 tra">
                 <img
                   src={item.img}
                   alt={item.fruit}
@@ -67,15 +67,15 @@ const FreshPick = () => {
               </div>
 
               {/* Content */}
-              <div className="flex flex-col items-center gap-5 mt-14 w-full">
-                <h1 className="text-4xl text-center">{item.fruit}</h1>
-                <p className="text-center ">{item.details}</p>
+              <div className="flex flex-col items-center  gap-2 sm:gap-5 mt-5 sm:mt-14 w-full">
+                <h1 className="text-3xl sm:text-4xl text-center">{item.fruit}</h1>
+                <p className="text-center text-xs sm:text-sm ">{item.details}</p>
                 <div className="flex items-center w-full gap-3 px-2">
                   <button className="bg-white border border-black text-xs sm:text-md 2xl:text-lg font-semibold shadow-md py-3 px-3 hover:scale-105 duration-300 font-Poppins rounded-full w-full">
                     ${item.price}
                   </button>
 
-                  <PrimaryBtn className="px-0 text-xs rounded-full w-full">
+                  <PrimaryBtn className="hidden sm:block px-0 text-xs rounded-full w-full">
                     Shop Now
                   </PrimaryBtn>
                 </div>
