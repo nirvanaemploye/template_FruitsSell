@@ -1,6 +1,6 @@
 import React from "react";
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";
-import HeadImg from "../../../assets/about_us/AboutHead.webp";
+import HeadImg from "../../../assets/about_us/AboutHead.svg";
 import apple from "../../../assets/about_us/Apple.svg";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <section className="py-24 ">
-      <div className="container relative grid grid-cols-1 lg:grid-cols-2 ">
+      <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-y-16 ">
         <img src={apple} alt="apple" className="w-24 sm:w-18 lg:w-auto absolute bottom-0 lg:right-1/2 sm:translate-x-24 translate-y-1/2" />
         {/* text content */}
         <div data-aos="fade-right" className="flex flex-col justify-center items-center lg:items-start gap-8 text-center lg:text-left">
           <h1  className="text-7xl sm:text-8xl 2xl:text-9xl">About <span className="text-secondary">Us</span></h1>
-          <p className=" sm:w-2/3 sm:leading-8">
+          <p className="w-2/3 sm:leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
