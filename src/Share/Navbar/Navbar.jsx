@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Logo */}
         <h1 className="flex flex-row items-center gap-x-3 text-3xl sm:text-5xl">
           Fruit Store
-          <img src={logo} alt="Logo" className="w-8 h-8 mt-2" />
+          <img src={logo} alt="Logo" className="sm:w-8 sm:h-8 mt-2" />
         </h1>
 
         {/* Navigation & Icons */}
@@ -42,16 +42,16 @@ const Navbar = () => {
               onClick={() => setIsCartOpen(true)}
               className="lg:border border-secondary rounded-full my-auto sm:p-2 group lg:hover:bg-secondary duration-300 hover:scale-110"
             >
-              <TiShoppingCart className="text-2xl lg:group-hover:text-white" />
+              <TiShoppingCart className="text-xl sm:text-2xl lg:group-hover:text-white" />
             </button>
 
             {/* Mobile menu button */}
             <div className="lg:hidden">
               <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 {isMenuOpen ? (
-                  <MdClose className="text-3xl" />
+                  <MdClose className="text-2xl sm:text-3xl -mb-2" />
                 ) : (
-                  <MdMenu className="text-3xl -mb-2" />
+                  <MdMenu className="text-2xl sm:text-3xl -mb-2" />
                 )}
               </button>
             </div>
