@@ -48,7 +48,7 @@ const ContactdetailsData = [
 const Contactdetails = () => {
   return (
     <section className="py-24 ">
-      <div className="container grid grid-cols-1 lg:grid-cols-3 ">
+      <div className="container grid grid-cols-1 lg:grid-cols-3 p-9 md:p-4 ">
         {ContactdetailsData.map((item) => (
           <div
           data-aos="zoom-in"
