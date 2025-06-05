@@ -50,7 +50,7 @@ const FreshPick = () => {
     <section style={bgStyle} className="py-24">
       <Title>Fresh Picks</Title>
       <div className="mt-28">
-        <div className="container p-8 lg:pt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-36 gap-x-12 ">
+        <div className="container p-8 lg:pt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-24 gap-x-6 ">
           {FreshPickData.map((item) => (
             <div
               key={item.id}
@@ -68,7 +68,7 @@ const FreshPick = () => {
 
               {/* Content */}
               <div className="flex flex-col items-center  gap-2 sm:gap-5 mt-5 sm:mt-14 w-full">
-                <h1 className="text-3xl sm:text-4xl text-center">{item.fruit}</h1>
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl text-center">{item.fruit}</h1>
                 <p className="text-center text-xs sm:text-sm ">{item.details}</p>
                 <div className="flex items-center w-full gap-3 px-2">
                   <button className="bg-white border border-black text-xs sm:text-md 2xl:text-lg font-semibold shadow-md py-3 px-3 hover:scale-105 duration-300 font-Poppins rounded-full w-full">
