@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <section className="py-24 ">
-      <div className="container flex flex-col gap-y-8 lg:flex-row justify-between relative">
+      <div className="container flex flex-col gap-y-12 lg:flex-row justify-between relative">
         <motion.img
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
