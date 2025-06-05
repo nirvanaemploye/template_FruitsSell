@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-y-14 ">
         <img src={apple} alt="apple" className="w-24 sm:w-18 lg:w-auto absolute bottom-0 lg:right-1/2 sm:translate-x-24 translate-y-1/2" />
         {/* text content */}
-        <div data-aos="fade-right" className="flex flex-col justify-center items-center lg:items-start gap-2 sm:gap-8 text-center lg:text-left">
+        <div data-aos="fade-right" className="flex flex-col justify-center items-center lg:items-start gap-4 sm:gap-8 text-center lg:text-left">
           <h1  className="text-7xl sm:text-8xl 2xl:text-9xl -mb-4">About <span className="text-secondary">Us</span></h1>
           <p className="w-2/3 sm:leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
