@@ -4,16 +4,18 @@ import HeadImg from "../../../assets/about_us/AboutHead.svg";
 import apple from "../../../assets/about_us/Apple.svg";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { motion } from "motion/react";
+
 
 const Header = () => {
   return (
-    <section className="py-10 md:py-24 ">
-      <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-y-14 ">
+    <section className="py-24 ">
+      <div className="container relative grid grid-cols-1 lg:grid-cols-2 ">
         <img src={apple} alt="apple" className="w-24 sm:w-18 lg:w-auto absolute bottom-0 lg:right-1/2 sm:translate-x-24 translate-y-1/2" />
         {/* text content */}
-        <div data-aos="fade-right" className="flex flex-col justify-center items-center lg:items-start gap-4 sm:gap-8 text-center lg:text-left">
-          <h1  className="text-7xl sm:text-8xl 2xl:text-9xl -mb-4 md:-mb-0">About <span className="text-secondary">Us</span></h1>
-          <p className="w-2/3 sm:leading-8">
+        <div data-aos="fade-right" className="flex flex-col justify-center items-center lg:items-start gap-8 text-center lg:text-left">
+          <h1  className="text-7xl sm:text-8xl 2xl:text-9xl">About <span className="text-secondary">Us</span></h1>
+          <p className=" sm:w-2/3 sm:leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -28,9 +30,8 @@ const Header = () => {
         {/* image */}
         <div className="flex justify-center items-end">
             <img 
-             data-aos="zoom-in"
-             loading="lazy"
-             src={HeadImg} alt="About Us Img" className="lg:-mr-24 scale-90 sm:scale-100"/>
+             data-aos="zoom-out"
+             src={HeadImg} alt="About Us Img" className="lg:-mr-24"/>
         </div>
       </div>
     </section>

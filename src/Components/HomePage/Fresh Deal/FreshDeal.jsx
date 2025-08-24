@@ -7,7 +7,7 @@ import oranges from "../../../assets/Home_page/FreshImg/oranges.svg";
 import strawberry from "../../../assets/Home_page/FreshImg/strawberry.svg";
 import watermelon from "../../../assets/Home_page/FreshImg/watermelon.svg";
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";
-import HandelHover from "../../../Share/HandelHover/HandelHover";
+import HandelHover from "../../../Share/handelHover/handelHover";
 
 const bgStyle = {
   backgroundImage: `url(${FreshBg})`,
@@ -18,21 +18,17 @@ const bgStyle = {
 
 const FreshDeal = () => {
   return (
-    <section style={bgStyle} className="py-12 md:py-24">
+    <section style={bgStyle} className="py-24">
       <Title>Fresh Deals Daily</Title>
       {/* main content fresh deal */}
-      <div
-        data-aos="fade-up"
-        className="container p-8 sm:pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-      >
+      <div data-aos="fade-up" className="container pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {/* left side */}
         <div className="hidden lg:flex flex-col justify-between gap-y-4 ">
           {/* Gauva */}
           <div className="bg-gradient-to-r from-[#819F2D] via-[#A5B654] to-[#819F2D] p-2 group relative flex items-center justify-center ">
             <img
               src={gauva}
-              alt="Gauva"
-              laging="lazy"
+              alt=""
               className="group-hover:scale-110 transition-all duration-500"
             />
             <HandelHover />
@@ -41,8 +37,7 @@ const FreshDeal = () => {
           <div className="bg-gradient-to-r from-[#F3FDA6] to-[#F16556] p-2 relative group flex items-center justify-center ">
             <img
               src={watermelon}
-              alt="watermelon"
-              laging="lazy"
+              alt=""
               className="group-hover:scale-110 transition-all duration-500"
             />
             <HandelHover />
@@ -53,8 +48,7 @@ const FreshDeal = () => {
         <div className="relative group  bg-gradient-to-t from-yellow-600 to-yellow-200 flex items-center justify-center ">
           <img
             src={banana}
-            alt="Banana"
-            laging="lazy"
+            alt=""
             className="group-hover:scale-110 transition-all duration-500 "
           />
           <HandelHover />
@@ -65,8 +59,7 @@ const FreshDeal = () => {
           <div className="bg-gradient-to-l from-[#FCA708] to-[#D4A650] p-2 group h-full relative flex items-center justify-center ">
             <img
               src={oranges}
-              alt="Oranges"
-              laging="lazy"
+              alt=""
               className="group-hover:scale-110 transition-all duration-500"
             />
             <HandelHover />
@@ -75,8 +68,7 @@ const FreshDeal = () => {
           <div className="bg-gradient-to-b from-[#A21B06] to-[#DCAA55] p-2 group relative flex items-center justify-center ">
             <img
               src={strawberry}
-              alt="Strawberry"
-              laging="lazy"
+              alt=""
               className="group-hover:scale-110 transition-all duration-500"
             />
             <HandelHover />

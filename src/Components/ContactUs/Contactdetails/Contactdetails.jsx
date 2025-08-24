@@ -48,7 +48,7 @@ const ContactdetailsData = [
 const Contactdetails = () => {
   return (
     <section className="py-24 ">
-      <div className="container grid grid-cols-1 lg:grid-cols-3 p-8 md:p-4 ">
+      <div className="container grid grid-cols-1 lg:grid-cols-3 ">
         {ContactdetailsData.map((item) => (
           <div
           data-aos="zoom-in"
@@ -58,12 +58,12 @@ const Contactdetails = () => {
             <div className="">
               <img src={item.img} alt="" />
             </div>
-            <div className="absolute mx-16 md:mx-60 lg:mx-10 xl:mx-20 2xl:mx-28 flex flex-col items-center gap-1 md:gap-2 top-20 2xl:top-24 text-black">
+            <div className="absolute mx-16 md:mx-60 lg:mx-10 xl:mx-20 2xl:mx-28 flex flex-col items-center gap-2 top-20 2xl:top-24 text-black">
 
             <div className="text-3xl text-secondary bg-white p-3 rounded-full">
               {item.icon}
             </div>
-            <h2 className="text-2xl md:text-3xl font-semibold">{item.title}</h2>
+            <h2 className="text-3xl font-semibold">{item.title}</h2>
             {typeof item.text === "string" ? (
                 <p className="font-medium text-black">{item.text}</p>
             ) : (

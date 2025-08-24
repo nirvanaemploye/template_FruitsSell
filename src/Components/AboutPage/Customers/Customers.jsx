@@ -46,7 +46,7 @@ const Customers = () => {
               >
                 <img src={item.img} alt="" className="h-full" />
                 <div className=" absolute top-[70px] sm:top-16 2xl:top-20 h-44 px-14 sm:px-0 sm:w-1/3 lg:w-4/5 2xl:px-6 overflow-hidden">
-                  <p className=" text-gray-500 mb-2 md:leading-8">{item.desc}</p>
+                  <p className=" text-gray-500 mb-2 leading-7">{item.desc}</p>
                   <h2 className="text-2xl font-semibold">{item.CustomersName}</h2>
                 </div>
               </div>

@@ -36,25 +36,25 @@ const fruitData = [
 
 const Well = () => {
   return (
-    <section className="py-12 md:py-24">
+    <section className="py-24">
       <Title>Eat Well, Live Weel</Title>
       <div className="container pt-10 grid grid-cols-1 lg:grid-cols-3">
         {/* Left side fruitlist */}
-        <div data-aos="fade" className="w-full max-w-md mx-auto py-8 p-5 sm:p-0 ">
-          <div className="flex flex-col gap-6 overflow-y-scroll scroll-ml-48 max-h-[320px] sm:max-h-[380px] scrollbar-thin scrollbar-thumb-primary scrollbar-track-slate-100 pr-5 ">
+        <div data-aos="fade" className="w-full max-w-md mx-auto py-8 ">
+          <div className="flex flex-col gap-6 overflow-y-scroll scroll-ml-48 max-h-[380px] scrollbar-thin scrollbar-thumb-primary scrollbar-track-slate-100 pr-5 ">
             {fruitData.map((fruit, index) => (
               <div key={index} className="flex items-start gap-4 p-1">
-                <div className="min-w-[80px] min-h-[80px] sm:min-w-[100px] sm:min-h-[100px] rounded-full border-2 border-primary flex items-center justify-center shadow-md shadow-primary/50">
+                <div className="min-w-[95px] min-h-[95px] rounded-full border-2 border-primary flex items-center justify-center shadow-md shadow-primary/50">
                   <img
                     data-aos="zoom-out"
                     src={fruit.img}
                     alt={fruit.name}
-                    className="h-12 w-12 sm:h-20 sm:w-20 object-contain"
+                    className="h-20 w-20 object-contain"
                   />
                 </div>
                 <div className="my-auto">
-                  <h1 className="text-2xl sm:text-4xl">{fruit.name}</h1>
-                  <p className="text-xs text-gray-500 ">{fruit.desc}</p>
+                  <h1 className="text-3xl sm:text-4xl">{fruit.name}</h1>
+                  <p className="text-gray-500 text-lg">{fruit.desc}</p>
                 </div>
               </div>
             ))}
@@ -67,20 +67,19 @@ const Well = () => {
             data-aos="zoom-in"
             src={FruitBasket}
             alt="Fruit Basket"
-            loading="lazy"
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain"
           />
         </div>
 
         {/* Right side quote */}
-        <div data-aos="fade" className="text-cente p-8 sm:p-5 space-y-4">
+        <div data-aos="fade" className="text-cente p-4 space-y-4">
           {/* Top comma */}
           <div className="flex justify-start">
-            <img src={comma} alt="Opening comma" loading="lazy" />
+            <img src={comma} alt="Opening comma" />
           </div>
 
           {/* Quote text */}
-          <p className=" sm:text-xl text-center lg:px-4 px-2">
+          <p className="text-xl text-center  lg:px-4 px-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

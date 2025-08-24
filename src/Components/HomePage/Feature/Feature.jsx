@@ -93,7 +93,7 @@ const Feature = () => {
 
   return (
     <section className="container mx-auto px-4 overflow-hidden">
-      <div className="py-12 md:py-24">
+      <div className="py-24">
         <Title>Feature Product</Title>
         <div className="mt-10">
           <Slider {...settings}>

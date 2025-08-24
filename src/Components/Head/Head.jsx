@@ -17,18 +17,18 @@ const Head = () => {
           <FaGoogle />
           <FaFacebookF />
           <FaTwitter />
-          <FaInstagramSquare className="rounded-full"/>
+          <FaInstagramSquare className="rounded-lg"/>
         </div>
         {/* contact info div */}
         <div className="flex justify-center items-center gap-2 ">
-          <h1 className="flex items-center gap-2 ">
+          <h1 className="flex items-center justify-center gap-2 ">
             <span>
               <FaLocationDot className="" />
             </span>
             Brogary Villas, New York. NY 10013
           </h1>
           <div className="w-[1px] h-4 bg-white m-2"></div>
-          <h1 className="flex items-center gap-2 ">
+          <h1 className="flex items-center justify-center gap-2 ">
             {" "}
             <span>
               <MdCall className="font-medium" />

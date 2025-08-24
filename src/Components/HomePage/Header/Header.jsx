@@ -10,15 +10,15 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="py-14 md:py-24 ">
-      <div className="container flex flex-col gap-y-12 lg:flex-row justify-between relative">
+    <section className="py-24 ">
+      <div className="container  flex flex-col lg:flex-row justify-between relative">
         <motion.img
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           src={img2}
           alt="Decorative fruit pattern"
-          className="absolute h-20 sm:h-32 2xl:h-auto right-0 -bottom-12 sm:-bottom-32"
+          className="absolute h-24 sm:h-32 2xl:h-auto right-0 -bottom-48 pointer-events-none"
         />
         <motion.img
           initial={{ opacity: 0, scale: 0.5 }}
@@ -26,20 +26,20 @@ const Header = () => {
           transition={{ duration: 1 }}
           src={img3}
           alt="Decorative fruit pattern"
-          className="absolute -top-20 scale-50 sm:scale-100" 
+          className="absolute -top-20 pointer-events-none"
         />
         {/* left side */}
-        <div className="flex flex-col gap-2 sm:gap-5 justify-center items-center lg:items-start w-full lg:w-2/5 text-center lg:text-left">
+        <div className="flex flex-col gap-5 justify-center items-center lg:items-start w-full lg:w-2/5 text-center lg:text-left">
           <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl">
             Healthy{" "}
           </h1>
-          <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl -mt-4">
+          <h1 data-aos="fade" className="font-AppFont text-7xl sm:text-8xl 2xl:text-9xl -mt-8">
             Fresh <span className="text-secondary">Fruits!</span>
           </h1>
-          <p data-aos="fade" className="text-xl text-black">
+          <p data-aos="fade" className="sm:text-xl text-black">
             Order Now For Fresh Healthy Life
           </p>
-          <p data-aos="fade" className="w-3/4 text-base 2xl:text-lg sm:leading-8">
+          <p data-aos="fade" className=" sm:w-3/4 text-base 2xl:text-lg sm:leading-8">
             Fresh, juicy fruits delivered to your doorstep. Boost your health
             with every bite.
           </p>
@@ -60,8 +60,8 @@ const Header = () => {
             transition={{ duration: 1, ease: "easeIn" }}
             src={img}
             alt="Basket of fresh fruits"
+            className="w-full pointer-events-none"
             loading="lazy"
-            className="w-full "
           />
         </div>
       </div>

@@ -8,12 +8,12 @@ import { motion } from 'motion/react';
 
 const ContactHeader = () => {
   return (
-    <section className="py-12 md:py-24">
-      <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-y-14 lg:gap-0">
+    <section className="py-24">
+      <div className="container overflow-x-hidden relative grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0">
         {/* text content */}
         <div data-aos="fade-right" className="flex flex-col justify-center items-center lg:items-start gap-8 text-center lg:text-left">
-          <h1 className="text-7xl sm:text-8xl 2xl:text-9xl -mb-4 md:-mb-0">Contact <span className="text-secondary">Us</span></h1>
-          <p className="w-2/3 sm:leading-8">
+          <h1 className="text-7xl sm:text-8xl 2xl:text-9xl">Contact <span className="text-secondary">Us</span></h1>
+          <p className="sm:w-2/3 sm:leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -27,10 +27,11 @@ const ContactHeader = () => {
         </div>
         {/* image */}
         <div className="flex justify-center items-end">
-            <img
-             data-aos="zoom-in"
-             loading='lazy'
-             src={HeadImg} alt="About Us Img" className="w-full sm:scale-150"/>
+            <motion.img
+             initial={{ opacity: 0, scale: 0.5 }}
+             animate={{ opacity: 1, scale: 1. }}
+             transition={{ duration: 1 }}
+             src={HeadImg} alt="About Us Img" className="sm:scale-150"/>
         </div>
       </div>
     </section>
