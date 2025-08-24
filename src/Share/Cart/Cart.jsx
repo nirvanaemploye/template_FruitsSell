@@ -132,7 +132,7 @@ const Cart = ({ onClose }) => {
             </p>
 
             <Link to="/shop" aria-label="Go to shop" onClick={onClose}>
-              <PrimaryBtn className="text-sm rounded-md px-4 py-2">
+              <PrimaryBtn data-aos="fade" data-aos-duration="100" className="text-sm rounded-md px-4 py-2">
                 Shop Now
               </PrimaryBtn>
             </Link>

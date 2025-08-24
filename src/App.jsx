@@ -31,7 +31,7 @@ import { useEffect } from "react";
 
 const App = () => {
   useEffect(() => {
-    AOS.init({ duration: 1200, delay: 100,
+    AOS.init({ duration: 600, delay: 100,
       offset: 20,
       once: true
      });
