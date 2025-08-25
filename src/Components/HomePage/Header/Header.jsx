@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import HeroImg from "../../../assets/Home_page/HaderImg/HeroImg.webp";
+import HeroImg from "../../../assets/Home_page/HaderImg/Heroimg.webp";
 import img2 from "../../../assets/Home_page/HaderImg/img2.svg";
 import img3 from "../../../assets/Home_page/HaderImg/53185981.svg";
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";
