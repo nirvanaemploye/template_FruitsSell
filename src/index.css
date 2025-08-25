@@ -4,7 +4,7 @@
 
 /* Define the custom font */
 @font-face {
-  font-family: "AppFont";
+  font-family: "Katibeh";
   src: url("/src/assets/Fonts/Katibeh-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -12,7 +12,7 @@
 
 /* Optional: global usage */
 h1 {
-  font-family: "AppFont", sans-serif;
+  font-family: "Katibeh", sans-serif;
 }
 
 p {

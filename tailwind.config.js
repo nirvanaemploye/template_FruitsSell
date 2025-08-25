@@ -6,7 +6,7 @@ export default {
   ],  theme: {
     extend: {
       fontFamily: {
-        AppFont: ['AppFont', 'sans-serif'],
+        AppFont: ['Katibeh', 'sans-serif'],
         Poppins: ['Poppins', 'sans-serif'],
       },
       colors: {

@@ -69,7 +69,7 @@ const Well = () => {
                 </div>
                 <div className="my-auto">
                   <h1 className="text-3xl sm:text-4xl">{fruit.name}</h1>
-                  <p className="text-gray-500 text-lg">{fruit.desc}</p>
+                  <p className="text-gray-500 md:text-lg">{fruit.desc}</p>
                 </div>
               </div>
             ))}
