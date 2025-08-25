@@ -1,6 +1,6 @@
 import React from 'react'
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";
-import HeadImg from "../../../assets/ContactImg/ContactImg.svg";
+import HeadImg from "../../../assets/ContactImg/ContactImg.webp";
 import { MdOutlineShoppingBag } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';

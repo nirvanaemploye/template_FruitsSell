@@ -2,7 +2,7 @@ import React from "react";
 import FreshBg from "../../../assets/Home_page/FreshImg/bg_rectangle2.svg";
 import Title from "../../../Share/Title/Title";
 import Lychee from "../../../assets/Home_page/FreshPick/Lychee.svg";
-import Orange from "../../../assets/Home_page/FreshPick/oranges.svg";
+import Orange from "../../../assets/Home_page/FreshPick/Oranges.svg";
 import Apple from "../../../assets/Home_page/FreshPick/Apple.svg";
 import Cherry from "../../../assets/Home_page/FreshPick/Cherry.svg";
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";

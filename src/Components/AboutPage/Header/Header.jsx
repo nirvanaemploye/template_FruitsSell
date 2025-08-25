@@ -1,11 +1,10 @@
 import React from "react";
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";
-import HeadImg from "../../../assets/about_us/AboutHead.svg";
+import HeadImg from "../../../assets/about_us/AboutHead.webp";
 import apple from "../../../assets/about_us/Apple.svg";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { motion } from "motion/react";
-
 
 const Header = () => {
   return (

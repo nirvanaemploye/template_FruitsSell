@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import img from "../../../assets/Home_page/HaderImg/img1.svg";
+import HeroImg from "../../../assets/Home_page/HaderImg/HeroImg.webp";
 import img2 from "../../../assets/Home_page/HaderImg/img2.svg";
 import img3 from "../../../assets/Home_page/HaderImg/53185981.svg";
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";
@@ -58,7 +58,7 @@ const Header = () => {
             initial={{ opacity: 0, x: 50, rotate: 0 }}
             animate={{ opacity: 1, x: 0, rotate: 0 }}
             transition={{ duration: 1, ease: "easeIn" }}
-            src={img}
+            src={HeroImg}
             alt="Basket of fresh fruits"
             className="w-full pointer-events-none"
             loading="lazy"

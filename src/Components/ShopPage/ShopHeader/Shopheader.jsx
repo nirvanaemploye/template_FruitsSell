@@ -1,5 +1,5 @@
 import React from 'react'
-import HeadImg from "../../../assets/ShopImg/ShopHead.svg";
+import HeadImg from "../../../assets/ShopImg/ShopHead.webp";
 import PrimaryBtn from "../../../Share/PrimaryBtn/PrimaryBtn";
 import { MdOutlineShoppingBag } from 'react-icons/md';
 import { motion } from 'motion/react';

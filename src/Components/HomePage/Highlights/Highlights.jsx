@@ -35,10 +35,10 @@ const Highlights = () => {
           className="absolute -bottom-32 lg:-left-2 h-auto 2xl:h-40 w-24 sm:w-32 lg:w-auto"
         />
         <div className="relative flex flex-col lg:flex-row justify-between items-center gap-10">
-          <div className="hidden lg:block mx-[120px] absolute top-24 left-0 right-0 border-t-[3px] border-dashed border-primary z-0" />
+          <div className="hidden lg:block mx-[120px] absolute top-24 left-0 right-0 border-t-[2px] border-dashed border-primary z-0" />
           {data.map((item) => (
             <div key={item.title}  className="flex flex-col items-center gap-10">
-              <div className="bg-white flex items-center justify-center rounded-full shadow-lg h-40 w-40 lg:h-48 lg:w-48 border-[3px] border-spacing-16 border-dashed border-primary z-10">
+              <div className="bg-white flex items-center justify-center rounded-full shadow-lg h-40 w-40 lg:h-48 lg:w-48 border-[2px] border-spacing-16 border-dashed border-primary z-10">
                 <img
                 data-aos="zoom-in"
                   src={item.img}

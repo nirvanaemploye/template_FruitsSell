@@ -5,6 +5,10 @@ import comma from "../../../assets/Home_page/WellImg/inverted-commas_svgrepo.com
 import Avocado from "../../../assets/Home_page/WellImg/Avocado.svg";
 import Pineapple from "../../../assets/Home_page/WellImg/Pineapple.svg";
 import Kiwi from "../../../assets/Home_page/WellImg/kiwi.svg";
+import Apple from "../../../assets/Home_page/FreshPick/Apple.svg";
+import Cherry from "../../../assets/Home_page/FreshPick/Cherry.svg";
+import Lychee from "../../../assets/Home_page/FreshPick/Lychee.svg";
+import Orange from "../../../assets/Home_page/FreshPick/oranges.svg";
 
 const fruitData = [
   {
@@ -23,15 +27,26 @@ const fruitData = [
     desc: "Lorem Ipsum is simply dummy text of the printing.",
   },
   {
-    name: "Pineapple",
-    img: Pineapple,
+    name: "Apple",
+    img: Apple,
     desc: "Lorem Ipsum is simply dummy text of the printing.",
   },
   {
-    name: "Pineapple",
-    img: Pineapple,
+    name: "Cherry",
+    img: Cherry,
     desc: "Lorem Ipsum is simply dummy text of the printing.",
   },
+
+  {
+    name: "Lychee",
+    img: Lychee,
+    desc: "Lorem Ipsum is simply dummy text of the printing.",
+  },
+  {
+    name: "Orange",
+    img: Orange,
+    desc: "Lorem Ipsum is simply dummy text of the printing.",
+  }
 ];
 
 const Well = () => {
