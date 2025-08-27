@@ -24,10 +24,10 @@ const CartItem = ({ item, onRemove, onQuantityChange }) => {
         />
         <div>
           <p className="text-md font-semibold mb-2">{item.title}</p>
-          <div className="flex items-center justify-center border rounded-md overflow-hidden max-w-[90px]">
+          <div className="flex items-center justify-center border rounded-md overflow-hidden max-w-[70px]">
             <button
               onClick={decrement}
-              className="text-2xl px-3  hover:bg-gray-100 transition"
+              className="text-2xl px-2  hover:bg-gray-100 transition"
               aria-label="Decrease quantity"
             >
               −
@@ -35,7 +35,7 @@ const CartItem = ({ item, onRemove, onQuantityChange }) => {
             <span className="text-lg font-medium px-2">{item.quantity}</span>
             <button
               onClick={increment}
-              className="text-2xl px-3  hover:bg-gray-100 transition"
+              className="text-2xl px-2  hover:bg-gray-100 transition"
               aria-label="Increase quantity"
             >
               +
@@ -50,7 +50,7 @@ const CartItem = ({ item, onRemove, onQuantityChange }) => {
         
         <button
           onClick={() => onRemove(item.id)}
-          className="text-red-500 hover:text-red-700 mt-2 text-xl"
+          className="text-black hover:text-red-400 mt-2 text-xl"
           aria-label="Remove item"
         >
           <FaTimes />

@@ -16,7 +16,7 @@ const HndalHover = () => {
 const Team = () => {
   return (
     <section className="py-24 ">
-      <div className="container space-y-12 relative">
+      <div className="container relative">
         <img src={Img3} alt="" className="w-24 sm:w-32 lg:w-auto absolute top-0 right-0" />
         <Title>Our Team</Title>
         <div className="lg:flex items-center space-y-12 gap-">

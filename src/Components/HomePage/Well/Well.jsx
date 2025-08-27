@@ -59,7 +59,7 @@ const Well = () => {
           <div className="flex flex-col gap-6 overflow-y-scroll scroll-ml-48 max-h-[380px] scrollbar-thin scrollbar-thumb-primary scrollbar-track-slate-100 pr-5 ">
             {fruitData.map((fruit, index) => (
               <div key={index} className="flex items-start gap-4 p-1">
-                <div className="min-w-[95px] min-h-[95px] rounded-full border-2 border-primary flex items-center justify-center shadow-md shadow-primary/50">
+                <div className="min-w-[95px] min-h-[95px] rounded-full border-[1.5px] border-primary flex items-center justify-center shadow-md shadow-primary/40">
                   <img
                     data-aos="zoom-out"
                     src={fruit.img}
@@ -69,7 +69,7 @@ const Well = () => {
                 </div>
                 <div className="my-auto">
                   <h1 className="text-3xl sm:text-4xl">{fruit.name}</h1>
-                  <p className="text-gray-500 md:text-lg">{fruit.desc}</p>
+                  <p className="text-gray-500 text-sm md:text-base">{fruit.desc}</p>
                 </div>
               </div>
             ))}
@@ -87,14 +87,14 @@ const Well = () => {
         </div>
 
         {/* Right side quote */}
-        <div data-aos="fade" className="text-cente p-4 space-y-4">
+        <div data-aos="fade" className="text-cente p-4 flex flex-col justify-center ">
           {/* Top comma */}
-          <div className="flex justify-start">
+          <div className="flex justify-start items-center">
             <img src={comma} alt="Opening comma" />
           </div>
 
           {/* Quote text */}
-          <p className="text-xl text-center  lg:px-4 px-2">
+          <p className="text-lg text-center  lg:px-4 px-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

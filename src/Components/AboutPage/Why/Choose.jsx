@@ -47,7 +47,7 @@ const Choose = () => {
                 className="flex flex-col items-center gap-5 px-14 py-10 shadow-xl text-center bg-white"
               >
                 <img src={item.img} alt="" />
-                <h1 className="text-3xl lg:text-4xl 2xl:text-5xl">{item.title}</h1>
+                <h1 className="text-2xl md:text-3xl 2xl:text-4xl">{item.title}</h1>
                 <p className="2xl:text-lg sm:leading-8">{item.desc}</p>
               </div>
             );
